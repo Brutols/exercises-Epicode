@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,400;1,600&family=Prata&display=swap');
+
+        body{
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .main-section{
+            padding: 20px;
+        
+        }
+
+        img{
+            width: 100%;
+            height: 500px;
+        }
+
+        h1{
+            font-family: 'Prata', sans-serif; 
+            font-size: 64px; 
+            font-weight: 400;
+            margin-bottom: 0;
+        }
+
+        h3{
+            font-family: 'Prata', sans-serif; 
+            font-size: 24px; 
+            font-weight: 400;
+            margin-bottom: 0;
+            margin-top: 0;   
+        }
+
+        #autore{
+            font-weight: 600;
+            font-style: italic;
+            color:#03f0fc;
+        }
+
+        #autoresn{
+            font-weight: 600;
+            font-style: italic;
+            color:#0377fc;
+        }
+
+        #rimando{
+            font-weight: 600;
+            font-style: italic;
+            color:#03f0fc;
+        }
+
+        h6{
+            padding: 22px;
+            margin-bottom: 0;
+            margin-top: 56px;
+            color: white;
+            border-radius: 6px;
+            background: linear-gradient(120deg, #03f0fc, #2e944e);
+            max-width: 500px;
+        }
+
+        #h6sn{
+            padding: 22px;
+            margin-bottom: 0;
+            margin-top: 56px;
+            color: white;
+            border-radius: 6px;
+            background: linear-gradient(120deg, #0377fc, #e0d95f);
+            max-width: 500px;
+        }
+
+        ul{
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+
+        li{
+            padding-top: 6px;
+            padding-bottom: 6px;
+            padding-left: 22px;
+            border-bottom: 1px solid #dfdfdf;
+            max-width: 500px;
+        }
+
+        .fondo-pagina{
+            margin: 0 auto;
+            background-color: black;
+            text-align: center;
+        }
+
+        #home{
+            color: white
+        }
