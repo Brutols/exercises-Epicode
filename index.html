@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrati a Spotifake</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <div id="main">
+
+        <div id="top">
+            <img id="logo" src="assets\spotifake logo.png" alt="spotifake logo" />
+            <h1>Registrati a Spotifake e fai ascoltare la musica a qualcun'altro!</h1>
+
+        </div>
+
+        <form onsubmit="alert('Grazie per aver assecondato i miei deliri')" autocomplete="on">
+            <div id="middle">
+                <div class="persinfo">
+                    <input type="text" placeholder="Mario"/>
+                    <input type="text" placeholder="Il cognome di Mario"/>
+                </div>
+                <div class="persinfo">
+                    <input type="email" placeholder="un indirizzo e-mail"/>
+                    <input type="password" placeholder="una password, possibilmente 1234"/>
+                </div>
+                <div class="persinfo">
+                    <input type="date" id="date"/>
+                    <input type="number" placeholder="un numero di telefono falso"/>
+                </div>
+            </div>
+
+            <div id="bottom">
+                <div>
+                    <h3>Hai letto tutto con la voce della pubblicità della Piccol?</h3>
+                    <input type="checkbox" id="si"/>
+                    <label for="si">Si</label>
+                    <input type="checkbox" id="no"/>
+                    <label for="no">Non so cosa sia la Piccol</label>
+                    <input type="checkbox" id="no2"/>
+                    <label for="no2">No ma lo faccio subito</label>
+                </div>
+                <div>
+                    <h3>Dichiari di accettare i <a href="https://nonciclopedia.org/wiki/Piccol" target="_blank">termini e condizioni</a>?</h3>
+                    <input type="radio" id="accetto"/>
+                    <label for="accetto">controvoglia</label>
+                    <input type="radio" id="non-accetto"/>
+                    <label for="non-accetto">prima o poi</label>
+                </div>
+                <div>
+                    <button TYPE="submit">invia il form cliccando lentamente</button>
+                </div>
+            </div>
+
+
+        </form>
+    </div>
+    
+</body>
+</html>
